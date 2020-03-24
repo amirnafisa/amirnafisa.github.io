@@ -1,7 +1,7 @@
 class Projects extends React.Component {
     render () {
         return(
-            <div className="padding2 text-center" ref={this.props.ref}>
+            <div className="padding-top2 text-center" ref={this.props.ref}>
                 <h2>Projects</h2>
                 <div className="card-deck" id="cards">
                     <Project cardImage="images/parser.png"
@@ -42,11 +42,21 @@ class Project extends React.Component {
                 <table>
                     <tbody>
                     <tr>
-                        <td className="vert-align-top">
-                            <img src={this.props.cardImage} alt="Card image cap" width="200px" className="border"/>
+                        <td className="vert-align-top font-small">
+                            <img src={this.props.cardImage} alt="Card image cap" width="200px" className="border cursor-pointer"/>
+                            <p className="align-left italics">
+                            Completed:
+                            December 2018
+                            <br/>
+                            Programming Language:
+                            Python
+                            <br/>
+                            Domain:
+                            Natural Language Processing
+                            </p>
                         </td>
                         <td className="vert-align-top">
-                            <div className="nav-content">
+                            <div id="nav-content">
                                 {this.props.cardBody}<br/>asdf
                                 asdfasdfasdfasdfa
                                 asdfasdfasdfqwerwe qweqwe rqwer qwerqwe rqwer qwer
@@ -59,17 +69,6 @@ class Project extends React.Component {
                                     Source Code
                                 </a>
                             </div>
-                        </td>
-
-                        <td className="align-left vert-align-top">
-                                Completed:
-                                December 2018
-                            <br/>
-                                Programming Language:
-                                Python
-                            <br/>
-                                Domain:
-                                Natural Language Processing
                         </td>
                     </tr>
                     </tbody>

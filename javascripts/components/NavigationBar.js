@@ -18,14 +18,14 @@ class NavigationBar extends React.Component {
 
     render () {
         return (
-            <table className="sticky">
+            <table>
                 <tbody>
                 <tr>
-                    <td className="title">Nafisa Ali Amir</td>
-                    <td className={this.props.selection===1?"selected nav-menu":"nav-menu"} onClick={this.selectHome.bind(this)}>Home</td>
-                    <td className={this.props.selection===2?"selected nav-menu":"nav-menu"} onClick={this.selectProjects.bind(this)}>Projects</td>
-                    <td className={this.props.selection===3?"selected nav-menu":"nav-menu"} onClick={this.selectResume.bind(this)}>Resume</td>
-                    <td className={this.props.selection===4?"selected nav-menu":"nav-menu"} onClick={this.selectContact.bind(this)}>Contact</td>
+                    <td id="title">Nafisa Ali Amir</td>
+                    <td id="subtitle" className={this.props.selection===1?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectHome.bind(this)}>Home</td>
+                    <td id="subtitle" className={this.props.selection===2?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectProjects.bind(this)}>Projects</td>
+                    <td id="subtitle" className={this.props.selection===3?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectResume.bind(this)}>Resume</td>
+                    <td id="subtitle" className={this.props.selection===4?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectContact.bind(this)}>Contact</td>
                 </tr>
                 </tbody>
             </table>

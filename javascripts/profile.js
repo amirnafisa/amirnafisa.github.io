@@ -33,7 +33,7 @@ class Application extends React.Component {
     render() {
         return (
             <div>
-                <div className="sticky">
+                <div id="bar-sticky">
                     <NavigationBar selection={this.state.selection} select={this.select.bind(this)}/>
                 </div>
                 <div ref={this.ref1}>
