@@ -43,7 +43,7 @@ class Project extends React.Component {
                     <tbody>
                     <tr>
                         <td className="vert-align-top">
-                            <img src={this.props.cardImage} onerror="this.style.display='none'" alt="Card image cap" width="200px" className="border"/>
+                            <img src={this.props.cardImage} alt="Card image cap" width="200px" className="border"/>
                         </td>
                         <td className="vert-align-top">
                             <div className="nav-content">
