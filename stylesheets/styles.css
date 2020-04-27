@@ -1,106 +1,14 @@
 body,html{
-    '''background-color: peachpuff;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+}
+
+#application {
+    background-image: linear-gradient(to right, #ddedea, white);
     height: 100%;
     white-space: nowrap;
-    margin: 0;
+    margin: 0 auto;
     cursor: default;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #406566;
 }
 
-td {
-    width: fit-content;
-    padding: 0 2vw 0 2vw;
-}
-
-.cursor-pointer {
-    cursor: pointer;
-}
-
-.margin1 {
-    margin: 1em;
-}
-
-.padding1 {
-    padding: 1em;
-}
-
-.padding-top2 {
-     padding-top: 2em;
- }
-
-.text-center {
-    text-align: center;
-}
-
-.selected-color {
-    color: wheat;
-}
-
-.font-small {
-    font-size: small;
-}
-
-.margin-bottom {
-    margin-bottom: 2em;
-}
-
-.italics {
-    font-style: italic;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.border {
-    border-style: solid;
-    border-width: 0.1em;
-}
-
-.vert-align-top {
-    vertical-align: top;
-}
-
-.pre-wrap {
-    white-space: pre-wrap;
-}
-
-#nav-content {
-    white-space: pre-wrap;
-    text-align: left;
-}
-
-#contact-links {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 1em;
-}
-
-#bar-sticky {
-    background: #641b22;
-    color: white;
-    width: 100%;
-    min-width: fit-content;
-    max-width: 100%;
-    position: sticky;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    height: 2em;
-}
-
-#title {
-    position: relative;
-    left: 1em;
-    top: 0.3em;
-    vertical-align: bottom;
-    font-size: larger;
-    font-weight: bold;
-}
-
-#subtitle {
-    position: relative;
-    top: 0.3em;
-    vertical-align: bottom;
-    left: 1em;
-}

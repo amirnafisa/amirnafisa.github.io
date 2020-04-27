@@ -1,0 +1,41 @@
+#aboutme {
+    margin: 3em 0 3em 0;
+    width: 100%;
+    align-content: center;
+    background-image: linear-gradient(to right, #406566, #45a1a3);
+    background-size: cover;
+}
+
+#aboutme-content {
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+    height: 30em;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#aboutme table {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+#aboutme table .text-bottom {
+    vertical-align: bottom;
+}
+
+#aboutme table .text-top {
+    vertical-align: top;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#nav-content {
+    white-space: pre-wrap;
+    color: #edfffa;
+}
+

@@ -1,4 +1,4 @@
-class Application extends React.Component {
+class HomePage extends React.Component {
     _isMounted = true;
 
     constructor(props) {
@@ -22,11 +22,12 @@ class Application extends React.Component {
     select (selection) {
         this._isMounted && this.setState({selection:selection});
         if (this[`ref${selection}`].current) {
-            this[`ref${selection}`].current.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-                inline: "start"
-            });
+
+            let refCurrentOffset = this[`ref${selection}`].current.getBoundingClientRect().top;
+            let windowOffset = window.pageYOffset;
+            let stickyBarOffset = 80; //for 16px body font size, 5em (height of the sticky bar) = 80px
+
+            window.scrollTo({top: refCurrentOffset + windowOffset - stickyBarOffset, behavior: "smooth"});
         }
     }
 
@@ -54,5 +55,5 @@ class Application extends React.Component {
     }
 }
 
-ReactDOM.render(<Application/>, document.querySelector("#application"));
+ReactDOM.render(<HomePage/>, document.querySelector("#application"));
 

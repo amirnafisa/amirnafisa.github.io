@@ -1,0 +1,34 @@
+td {
+    width: fit-content;
+    padding: 0 2vw 0 2vw;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.valign-middle {
+    vertical-align: middle;
+}
+
+.child-el {
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    width: 30%;
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+ul {
+    display: inline;
+}
+
+

@@ -49,6 +49,23 @@ August 2019 - May 2020
 
 <img src="./images/decon.png" alt="decon" width="300"/>
 
+It is an APL sponsored project to tackle healthcare associated infections. This projects
+aims to provide an autonomous solution for disinfecting healthcare facilities in human and non-human 
+presence. 
+
+Highlighting sections of the project include:
+
+- Autonomous navigation
+- 3D Slam creation
+- Depth estimation using LiDAR and stereo camera
+- Faster R-CNN based object detection including the type of object and its location
+- A robotic ARM that based on the detected location orients itself
+- Disinfecting cone attached to the arm
+- Dual mode disinfection including both UV light at 280nm wavelength and disinfecting spray
+- Battery operated systems
+- Safety mechanism
+
+
 ##Time Travel
 
 [Github Link](https://github.com/amirnafisa/time-travel-for-oose)
@@ -57,6 +74,23 @@ August 2019 - Dec 2019
 
 <img src="./images/timetravel.png" alt="timetravel" width="300"/>
 
+It is a web application based on client-server architecture for 
+organizing travel itineraries and detecting discrepancies in travel plans.
+
+To make travelling convenient and less cumbersome, it offers following highlighting
+features:
+
+- Extracts travel bookings from email without manual intervention
+- Keeps all bookings in one place
+- Arranges in chronological order
+- The bookings highlight specific details, like flight number, check-in time, location etc.
+- Detects if there is a reservation missing
+- Detects if there is an overlap in reservations
+- Detects any discrepancy in reservations (Incorrect month or date or missing transportation)
+- A visual preview in a map of the travel
+- Allows manual addition/deletion of a booking
+
+
 ##Legal IR
 
 [Github Link](https://github.com/amirnafisa/InformationRetrieval)
@@ -64,6 +98,12 @@ August 2019 - Dec 2019
 January 2019 - May 2019
 
 <img src="./images/legalIR.png" alt="legalIR" width="300"/>
+
+This project aims to use and compare various architectures for catchphrase extraction
+from legal documents. Legal documents provide a large text base with technical vocabulary
+specific to the legal domain. This is taken to the advantage of comparing vector based models, 
+conditional random fields based models, recurrent neural network based models and long short 
+term memory networks.
 
 ##Food NN
 
@@ -82,6 +122,14 @@ August 2018 - December 2018
 Food NN is a neural network based project for food image classification. 
 It aims to fine tune and ensemble deep neural network architectures in 
 resource constrained environment.
+
+Resnet-152 and Inception-v3 are used and ensembled based on weighted average
+of the probabilites obtained from the two models. The weight coefficients are 
+computed through hyperparameter tuning.
+
+Top-1 accuracy of the ensemble is 4% higher and top-5 accuracy is 3% higher than 
+that of the inception model.
+
 
 ##Parser
 

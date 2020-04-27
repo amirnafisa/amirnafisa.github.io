@@ -1,0 +1,14 @@
+#bar-sticky {
+    background-image: linear-gradient(to bottom, #406566, #45a1a3);
+    color: #edfffa;
+    width: 100%;
+    min-width: fit-content;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    height: 5em;
+}
+
+
