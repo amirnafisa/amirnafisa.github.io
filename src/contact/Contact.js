@@ -1,7 +1,7 @@
 class Contact extends React.Component {
     render () {
         return(
-            <div className="padding-top2 text-center margin-bottom" ref={this.props.ref}>
+            <div id="contact" ref={this.props.ref}>
                 <h2>Contact</h2>
                     <a id="contact-links" href="https://www.linkedin.com/in/amirnafisa/">
                         <img src="images/LinkedIn.svg" alt="LinkedIn Icon" width="60px"/>

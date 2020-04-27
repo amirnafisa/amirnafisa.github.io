@@ -99,11 +99,11 @@ class Project extends React.Component {
                 <p><b>Language:</b> {this.props.cardLanguage}</p>
                 <p>
                     {this.props.demoLink != null?
-                        <u className="left" href={this.props.demoLink}>Demo</u>:
-                        <u></u>}
+                        <a className="left" href={this.props.demoLink}>Demo</a>:
+                        <a></a>}
                     {this.props.gitHubLink != null?
-                        <u className="right" href={this.props.gitHubLink}>Code</u>:
-                        <u></u>}
+                        <a className="right" href={this.props.gitHubLink}>Code</a>:
+                        <a></a>}
                     </p>
             </div>
         );

@@ -52,10 +52,12 @@
 }
 
 #project .left {
+    text-decoration: underline;
     color: #9c1d14;
     float: left;
 }
 #project .right {
+    text-decoration: underline;
     color: #9c1d14;
     float: right;
 }

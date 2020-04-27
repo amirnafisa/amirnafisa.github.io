@@ -25,7 +25,7 @@ class HomePage extends React.Component {
 
             let refCurrentOffset = this[`ref${selection}`].current.getBoundingClientRect().top;
             let windowOffset = window.pageYOffset;
-            let stickyBarOffset = 80; //for 16px body font size, 5em (height of the sticky bar) = 80px
+            let stickyBarOffset = 128; //for 16px body font size, 5em (height of the sticky bar) + 3em = 128px
 
             window.scrollTo({top: refCurrentOffset + windowOffset - stickyBarOffset, behavior: "smooth"});
         }
