@@ -1,75 +1,49 @@
-@media only screen
-and (min-width: 1224px){
-    td {
-        width: fit-content;
-        padding: 0 2vw 0 2vw;
-    }
+td {
+    width: fit-content;
+    padding: 0 2vw 0 2vw;
+}
 
-    .cursor-pointer {
-        cursor: pointer;
-    }
+.cursor-pointer {
+    cursor: pointer;
+}
 
-    .valign-middle {
-        vertical-align: middle;
-    }
+.valign-middle {
+    vertical-align: middle;
+}
 
-    .child-el {
+.child-el {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #nav {
+        width: 70%;
+    }
+    #title {
         width: 100%;
-        height: 100%;
+        position: relative;
+        font-weight: bold;
     }
-
+}
+@media screen and (min-width: 600px){
+    #nav {
+        width: 70%;
+    }
     #title {
         width: 30%;
         position: relative;
-        font-size: xx-large;
         font-weight: bold;
-    }
-
-    .text-right {
-        text-align: right;
-    }
-
-    ul {
-        display: inline;
     }
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-    td {
-        width: fit-content;
-        padding: 0 2vw 0 2vw;
-    }
+.text-right {
+    text-align: right;
+}
 
-    .cursor-pointer {
-        cursor: pointer;
-    }
-
-    .valign-middle {
-        vertical-align: middle;
-    }
-
-    .child-el {
-        width: 100%;
-        height: 100%;
-    }
-
-    #title {
-        width: 30%;
-        position: relative;
-        font-size: large;
-        font-weight: bold;
-    }
-
-    .text-right {
-        text-align: right;
-    }
-
-    ul {
-        display: inline;
-        font-size: smaller;
-        padding: 0.5vw;
-    }
+ul {
+    display: inline;
 }
 

@@ -1,7 +1,13 @@
-body,html{
-    font-size: 16px;
+@media screen and (max-width: 600px) {
+    body, html {
+        font-size: 2vw;
+    }
 }
-
+@media screen and (min-width: 600px) {
+    body, html {
+        font-size: 16px;
+    }
+}
 #application {
     background-image: linear-gradient(to right, #ddedea, white);
     height: 100%;
@@ -10,5 +16,9 @@ body,html{
     cursor: default;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #406566;
+}
+
+* {
+    box-sizing: border-box;
 }
 

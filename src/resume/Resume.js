@@ -6,6 +6,7 @@ class Resume extends React.Component {
                 <object data="resources/NafisaResume.pdf" type="application/pdf" width="600px" height="900px">
                     <a href="resources/NafisaResume.pdf">Resume</a>
                 </object>
+                <a id="small-screen" href="resources/NafisaResume.pdf">Resume</a>
             </div>
         );
     }

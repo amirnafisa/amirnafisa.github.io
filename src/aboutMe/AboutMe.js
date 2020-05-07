@@ -19,7 +19,7 @@ class AboutMe extends React.Component {
                         </tr>
                         <tr>
                             <td className="text-top">
-                                <img src="images/Bio3.jpg" alt="Bio Pic" width="100px" className="cursor-pointer rounded-circle"/>
+                                <img id="bio-pic" src="images/Bio3.jpg" alt="Bio Pic" width="150vw" className="cursor-pointer rounded-circle"/>
                             </td>
                         </tr>
                         </tbody>

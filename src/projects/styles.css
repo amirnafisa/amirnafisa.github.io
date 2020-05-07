@@ -1,133 +1,84 @@
-@media only screen
-and (min-width: 1224px){
-    #projects {
-        text-align: center;
-        margin: 3em 0 3em 0;
-        width: 100%;
-        align-content: center;
-    }
+#projects {
+    text-align: center;
+    margin: 1vh 0 1vh 0;
+    width: 100%;
+    align-content: center;
+}
 
-    #projects-content {
-        align-content: center;
-        display: table;
-        margin: 0 auto;
-        width: 90%;
-        text-align: center;
-        vertical-align: middle;
-    }
+#projects-content {
+    align-content: center;
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    vertical-align: middle;
+}
 
-    #projects-content table {
-        width: 100%;
-    }
-    #projects td {
-        width: 20em;
-        height: 30em;
+@media screen and (min-width: 600px){
+    #projects col-4 {
+        z-index: -1;
+        width: 30%;
+        height: fit-content;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         background-image: linear-gradient(to bottom, #406566, #45a1a3);
-        border-radius: 1em;
-        margin: 3em;
-    }
-
-    #project {
-        white-space: pre-wrap;
-        padding-top: 1em;
-        color: white;
-        height: 100%;
-    }
-
-    #project img {
-
-        object-fit: cover;
-        width: 100%;
-        height: 50%;
-        border: 0.1em solid #ddd;
-        border-radius: 0.2em;
-        padding: 0.2em;
-        margin-bottom: 0.5em;
-    }
-
-    #project p {
-        font-size: smaller;
-        text-align: left;
-    }
-
-    #project .left {
-        text-decoration: underline;
-        color: #9c1d14;
-        float: left;
-    }
-    #project .right {
-        text-decoration: underline;
-        color: #9c1d14;
-        float: right;
+        border-radius: 1vw;
+        margin: 3vw;
     }
 }
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){
-    #projects {
-        text-align: center;
-        margin: 3em 0 3em 0;
+@media screen and (max-width: 600px){
+    #projects col-4 {
         width: 100%;
-        align-content: center;
-    }
-
-    #projects-content {
-        align-content: center;
-        display: table;
-        margin: 0 auto;
-        width: 90%;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    #projects-content table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0.5em;
-    }
-    #projects td {
-
+        height: fit-content;
+        display: inline-flex;
+        justify-content: center;
         align-items: center;
-        background-image: linear-gradient(to bottom, #406566, #45a1a3);
-        border-radius: 0.5em;
-        margin: 0.5em;
-    }
 
-    #project {
-        white-space: pre-wrap;
-        padding-top: 1em;
-        color: white;
-        height: 100%;
-    }
 
-    #project img {
+    }
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
-        object-fit: cover;
-        width: 100%;
-        height: 50%;
-        border: 0.1em solid #ddd;
-        border-radius: 0.2em;
-        padding: 0.2em;
-        margin-bottom: 0.5em;
-    }
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
 
-    #project p {
-        font-size: smaller;
-        text-align: left;
-    }
+#project {
+    background-image: linear-gradient(to bottom, #406566, #45a1a3);
+    white-space: pre-wrap;
+    color: white;
+    height: 100%;
+    border-radius: 1vw;
+    padding: 3vw;
+}
 
-    #project .left {
-        text-decoration: underline;
-        color: #9c1d14;
-        float: left;
-    }
-    #project .right {
-        text-decoration: underline;
-        color: #9c1d14;
-        float: right;
-    }
+#project img {
+    object-fit: cover;
+    width: 70%;
+    border: 0.1vw solid #ddd;
+    border-radius: 0.2vw;
+    padding: 0.2vw;
+    margin-bottom: 0.5vw;
+}
+
+#project p {
+    font-size: smaller;
+    text-align: left;
+}
+
+#project .left {
+    text-decoration: underline;
+    color: #9c1d14;
+    float: left;
+}
+#project .right {
+    text-decoration: underline;
+    color: #9c1d14;
+    float: right;
 }

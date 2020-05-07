@@ -22,7 +22,7 @@ class NavigationBar extends React.Component {
                 <tbody>
                 <tr>
                     <td id="title">Nafisa Ali Amir</td>
-                    <td className="text-right">
+                    <td id="nav" className="text-right">
                         <ul className={this.props.selection===1?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectHome.bind(this)}>Home</ul>
                         <ul className={this.props.selection===2?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectProjects.bind(this)}>Projects</ul>
                         <ul className={this.props.selection===3?"selected-color cursor-pointer":"cursor-pointer"} onClick={this.selectResume.bind(this)}>Resume</ul>

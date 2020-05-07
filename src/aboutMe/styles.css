@@ -1,19 +1,31 @@
 #aboutme {
-    margin: 3em 0 3em 0;
+    margin: 3vh 0 3vh 0;
     width: 100%;
     align-content: center;
     background-image: linear-gradient(to right, #406566, #45a1a3);
     background-size: cover;
 }
-
-#aboutme-content {
-    display: table;
-    margin: 0 auto;
-    width: 50%;
-    height: 30em;
-    text-align: center;
-    vertical-align: middle;
-
+@media screen and (max-width: 600px) {
+    #aboutme-content {
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+        height: fit-content;
+        padding: 3vh 0vw 3vh 0vw;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+@media screen and (min-width: 600px) {
+    #aboutme-content {
+        display: table;
+        margin: 0 auto;
+        width: 50%;
+        height: fit-content;
+        padding: 3vh 0 3vh 0;
+        text-align: center;
+        vertical-align: middle;
+    }
 }
 
 #aboutme table {
@@ -37,5 +49,9 @@
 #nav-content {
     white-space: pre-wrap;
     color: #edfffa;
+}
+
+#bio-pic {
+    margin: 3vh 0 3vh 0;
 }
 

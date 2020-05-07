@@ -1,7 +1,7 @@
 #contact {
     text-align: center;
-    margin: 3em 0 0 0;
-    padding-bottom: 3em;
+    margin: 3vh 0 0 0;
+    padding-bottom: 3vw;
     width: 100%;
     align-content: center;
 }
@@ -9,5 +9,5 @@
 #contact-links {
     display: inline-block;
     vertical-align: middle;
-    margin: 1em;
+    margin: 1vw;
 }
