@@ -2,6 +2,10 @@ class AboutMe extends React.Component {
     render () {
         return(
             <div id="aboutme" ref={this.props.ref}>
+
+                <div id="bg">
+                    <img src="images/bg4.jpg" alt="background-image"/>
+                </div>
                 <div id="aboutme-content">
                     <table>
                         <tbody>

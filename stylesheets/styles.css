@@ -9,13 +9,14 @@
     }
 }
 #application {
-    background-image: linear-gradient(to right, #ddedea, white);
+    '''background-image: linear-gradient(to right, #ddedea, white);
+    background-color: white;
     height: 100%;
     white-space: nowrap;
     margin: 0 auto;
     cursor: default;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #406566;
+    color: black;
 }
 
 * {

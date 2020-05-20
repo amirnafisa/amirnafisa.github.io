@@ -22,7 +22,6 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(to bottom, #406566, #45a1a3);
         border-radius: 1vw;
         margin: 3vw;
     }
@@ -46,16 +45,26 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 1vw;
 }
 
 #project {
-    background-image: linear-gradient(to bottom, #406566, #45a1a3);
+    border: 0.1vw solid #004466;
     white-space: pre-wrap;
-    color: white;
     height: 100%;
     border-radius: 1vw;
-    padding: 3vw;
+    padding-bottom: 1vw;
+    overflow: hidden;
+}
+
+#project-title {
+    padding: 0.5vw 0 0.5vw 0.5vw;
+    background-image: linear-gradient(to right, #004466, #0077b3, #004466);
+    color: white;
+}
+
+#project-stuff {
+    padding: 1vw;
 }
 
 #project img {
@@ -70,6 +79,7 @@
 #project p {
     font-size: smaller;
     text-align: left;
+
 }
 
 #project .left {

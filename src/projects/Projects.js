@@ -87,20 +87,24 @@ class Project extends React.Component {
     render () {
         return (
             <div id="project">
-                <h4>{this.props.cardTitle}</h4>
-                <img src={this.props.cardImage} alt={this.props.cardTitle}/>
-                <p>{this.props.cardBody}</p>
-                <p><b>Domain:</b> {this.props.cardDomain}</p>
-                <p><b>Language:</b> {this.props.cardLanguage}</p>
+                <div id="project-title">
+                    <h5>{this.props.cardTitle}</h5>
+                </div>
+                <div id="project-stuff">
+                    <img src={this.props.cardImage} alt={this.props.cardTitle}/>
+                    <p>{this.props.cardBody}</p>
+                    <p><b>Domain:</b> {this.props.cardDomain}</p>
+                    <p><b>Language:</b> {this.props.cardLanguage}</p>
 
-                <p>
-                    {this.props.demoLink != null?
-                        <a className="left" href={this.props.demoLink}>Demo</a>:
-                        <a></a>}
-                    {this.props.gitHubLink != null?
-                        <a className="right" href={this.props.gitHubLink}>Code</a>:
-                        <a></a>}
+                    <p>
+                        {this.props.demoLink != null?
+                            <a className="left" href={this.props.demoLink}>Demo</a>:
+                            <a></a>}
+                        {this.props.gitHubLink != null?
+                            <a className="right" href={this.props.gitHubLink}>Code</a>:
+                            <a></a>}
                     </p>
+                </div>
             </div>
         );
     }

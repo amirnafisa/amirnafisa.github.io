@@ -1,12 +1,25 @@
 #aboutme {
-    margin: 3vh 0 3vh 0;
     width: 100%;
     align-content: center;
-    background-image: linear-gradient(to right, #406566, #45a1a3);
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.35;
+}
+
 @media screen and (max-width: 600px) {
     #aboutme-content {
+        z-index: 2;
         display: table;
         margin: 0 auto;
         width: 100%;
@@ -14,10 +27,12 @@
         padding: 3vh 0vw 3vh 0vw;
         text-align: center;
         vertical-align: middle;
+        position: relative;
     }
 }
 @media screen and (min-width: 600px) {
     #aboutme-content {
+        z-index: 2;
         display: table;
         margin: 0 auto;
         width: 50%;
@@ -25,6 +40,7 @@
         padding: 3vh 0 3vh 0;
         text-align: center;
         vertical-align: middle;
+        position: relative;
     }
 }
 
@@ -48,10 +64,11 @@
 
 #nav-content {
     white-space: pre-wrap;
-    color: #edfffa;
+    color: black;
 }
 
 #bio-pic {
     margin: 3vh 0 3vh 0;
+    border: 0.1vw solid #004466;
 }
 
