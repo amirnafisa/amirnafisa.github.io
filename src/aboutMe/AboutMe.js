@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
                 </div>
                 <div id="aboutme-content">
                     <table>
-                        <tbody>
+                        <tbody id="nav-container">
                         <tr>
                             <td>
                                 <div id="nav-content">
